@@ -1,6 +1,12 @@
+// test.sl
 int a;
 int b;
+int c;
+
 a = 10;
-if (a == b) {
-    a = a + 1;
+b = 20;
+c = a + b;
+
+if (c == 30) {
+    c = c + 1;
 }
